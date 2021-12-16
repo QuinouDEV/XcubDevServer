@@ -1,0 +1,121 @@
+# This is the main configuration file for Cauldron.
+# 
+# If you need help with the configuration or have any questions related to Cauldron,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #cauldron @ irc.esper.net ( http://webchat.esper.net/?channel=cauldron )
+# Forums: http://cauldron.minecraftforge.net/
+# 
+# Setting: logging.dump-heap-on-deadlock Default: false   # Dump the heap in the event of a deadlock (helps to debug the deadlock)
+# Setting: world-settings.default.infinite-water-source Default: true   # Vanilla water source behavior - is infinite
+# Setting: logging.entity-collision-checks Default: false   # Whether to log entity collision/count checks
+# Setting: settings.dump-materials Default: false   # Dumps all materials with their corresponding id's
+# Setting: logging.dump-chunks-on-deadlock Default: false   # Dump chunks in the event of a deadlock (helps to debug the deadlock)
+# Setting: logging.print-tile-entity-unload-time Default: 40   # Print time used to unload tile entities if above this(Milliseconds). Set to 0 to disable
+# Setting: logging.chunk-unload Default: false   # Log when chunks are unloaded (dev)
+# Setting: logging.world-leak-debug Default: false   # Log worlds that appear to be leaking (buggy)
+# Setting: settings.max-tileentity-unload-per-tick Default: 250   # Limit number of TileEntities unloading per tick. Once TileEntity limit is hit, queue remaining chunks until next tick(Per world)
+# Setting: logging.chunk-load Default: false   # Log when chunks are loaded (dev)
+# Setting: settings.entity-bounding-box-max-size Default: 1000   # Max size of an entity's bounding box before removing it (either being too large or bugged and 'moving' too fast)
+# Setting: logging.detailed-logging Default: false   # Add stack traces to dev logging
+# Setting: logging.entity-count-warn-size Default: 0   # Number of entities in one dimension logging a warning. Set to 0 to disable
+# Setting: logging.collision-warn-size Default: 200   # Number of colliding entities in one spot before logging a warning. Set to 0 to disable
+# Setting: logging.disabled-warnings Default: false   # Disable warning messages to server admins
+# Setting: settings.load-chunk-on-forge-tick Default: false   # Forces Chunk Loading during Forge Server Tick events
+# Setting: settings.max-queued-chunk-unload Default: 628   # Limit number of chunks that can be queued for unloading due to high TileEntity count(Per world)
+# Setting: logging.entity-death Default: false   # Log when an entity is destroyed (dev)
+# Setting: fake-players.do-login Default: false   # Raise login events for fake players
+# Setting: logging.dump-threads-on-warn Default: false   # Dump the the server thread on deadlock warning (delps to debug the deadlock)
+# Setting: logging.entity-speed-removal Default: false   # Whether to log entity removals due to speed
+# Setting: logging.entity-spawn Default: false   # Log when living entities are spawned (dev)
+# Setting: debug.thread-contention-monitoring Default: false   # Set true to enable Java's thread contention monitoring for thread dumps
+# Setting: settings.check-entity-max-speeds Default: false   # Removes any entity that exceeds max speed.
+# Setting: world-settings.default.flowing-lava-decay Default: false   # Lava behaves like vanilla water when source block is removed
+# Setting: settings.check-entity-bounding-boxes Default: false   # Removes an entity that exceeds the max bounding box size.
+# Setting: settings.load-chunk-on-request Default: true   # Forces Chunk Loading on 'Provide' requests (speedup for mods that don't check if a chunk is loaded
+# Setting: logging.tick-intervals Default: false   # Log when skip interval handlers are ticked
+# Setting: logging.entity-despawn Default: false   # Log when living entities are despawned (dev)
+# Setting: logging.connection Default: false   # Log connections
+# Setting: logging.print-queued-chunk-unload Default: false   # Print a warning when chunks are queued due to hitting Tile Entity limit, including number of remaining chunks.
+# Setting: plugin-settings.default.remap-plugin-file Default: false   # Remap the plugin file (dev)
+
+logging:
+  dump-heap-on-deadlock: false
+  entity-collision-checks: false
+  dump-chunks-on-deadlock: false
+  print-tile-entity-unload-time: 40
+  chunk-unload: false
+  world-leak-debug: false
+  chunk-load: false
+  detailed-logging: false
+  entity-count-warn-size: 0
+  collision-warn-size: 200
+  disabled-warnings: false
+  entity-death: false
+  dump-threads-on-warn: false
+  entity-speed-removal: false
+  entity-spawn: false
+  tick-intervals: false
+  entity-despawn: false
+  connection: false
+  print-queued-chunk-unload: false
+world-settings:
+  default:
+    infinite-water-source: true
+    flowing-lava-decay: false
+    entity-despawn-immediate: true
+    worldgen-Artifice-ArtificeWorldGen: true
+    worldgen-CoFHWorld-WorldHandler: true
+settings:
+  dump-materials: false
+  max-tileentity-unload-per-tick: 250
+  entity-bounding-box-max-size: 1000
+  load-chunk-on-forge-tick: false
+  max-queued-chunk-unload: 628
+  check-entity-max-speeds: false
+  check-entity-bounding-boxes: false
+  load-chunk-on-request: true
+  fml-missing-message: You do not have FML installed, you cannot connect to this server
+fake-players:
+  do-login: false
+debug:
+  thread-contention-monitoring: false
+plugin-settings:
+  default:
+    remap-plugin-file: false
+    custom-class-loader: true
+    debug: false
+    use-guava10: true
+    remap-nms-v1_6_R3: true
+    remap-nms-v1_6_R2: true
+    remap-nms-v1_6_R1: true
+    remap-nms-v1_5_R3: true
+    remap-nms-v1_5_R2: true
+    remap-nms-v1_5_R1: true
+    remap-nms-v1_4_R1: true
+    remap-nms-v1_4_6: true
+    remap-nms-pre: 'false'
+    remap-obc-v1_6_R3: false
+    remap-obc-v1_6_R2: false
+    remap-obc-v1_6_R1: false
+    remap-obc-v1_5_R3: true
+    remap-obc-v1_5_R2: true
+    remap-obc-v1_5_R1: true
+    remap-obc-v1_4_R1: false
+    remap-obc-v1_4_6: false
+    remap-obc-pre: false
+    global-inheritance: true
+    plugin-inheritance: true
+    remap-reflect-field: true
+    remap-reflect-class: true
+    remap-allow-future: false
+config-version: 1
+world-environment-settings:
+  normal:
+    keep-world-loaded: true
+  nether:
+    keep-world-loaded: true
+  the_end:
+    keep-world-loaded: false
+  hchalo:
+    keep-world-loaded: false

@@ -1,0 +1,17 @@
+# Mob Spawn Controls Override File
+#
+# Use this file to override MSC's default settings
+# This can be used to fix mistakes in the settings
+# This can be used to add mobs from other mods
+#
+# See MobSpawnControls.log to see if your overrides worked
+# See Entities.txt for a list of Entity names
+#
+# import -EntityName- as -CreatureType-
+# exclude -EntityName- as -CreatureType-
+#
+# Example : "import Creeper as Monster"
+# Example : "import Ghast as Creature"
+#
+# Example : "exclude Squid as WaterCreature"
+# Example : "exclude Bat as Ambient"

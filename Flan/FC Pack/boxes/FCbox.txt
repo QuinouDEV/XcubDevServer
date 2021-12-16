@@ -1,0 +1,50 @@
+Name Futurecraft box
+ShortName FCbox
+TopTexture boxTop
+SideTexture IconFCBox
+BottomTexture boxBottom
+BlockID 179
+Recipe I iron B dyePowder.4 R dyePowder.1
+   
+III
+   
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 16
+AddGun LaserPistol 3 iron
+AddAmmo EnergyCell 1 iron
+AddGun LaserRifle 4 iron
+AddAmmo RifleClip 2 iron
+AddGun LRW 4 iron
+AddAmmo SniperCell 3 iron
+AddGun LaserMG 5 iron
+AddAmmo MGCell 4 iron
+AddGun RPistol 3 iron
+AddAmmo RPClip 1 iron
+AddGun RRifle 3 iron
+AddAmmo RRClip 2 iron
+AddGun RSniper 3 iron
+AddAmmo RSClip 3 iron
+AddGun RMG 5 iron
+AddAmmo RMGClip 4 iron
+AddGun MMD 6 iron
+AddAmmo MDAmmo 6 iron
+AddGun V1 2 iron
+AddAmmo V1Ammo 4 iron 1 gunpowder
+AddGun RocketPod 3 iron
+AddAmmo RPAmmo 8 iron 2 gunpowder
+AddGun XS57 3 iron
+AddAmmo XS57Ammo 1 iron 1 gunpowder
+AddGun Y33 2 iron
+AddAmmo Y33Ammo 1 iron 1 gunpowder
+AddGun K27 4 iron
+AddAmmo K27Ammo 2 iron 2 gunpowder
+AddGun D8 4 iron
+AddAmmo D8Ammo 2 iron 5 gunpowder
+AddGun CV32 5 iron
+AddAmmo CV32Ammo 3 iron 3 gunpowder

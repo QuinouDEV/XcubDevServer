@@ -1,0 +1,122 @@
+---- Minecraft Crash Report ----
+// Oh - I know what I did wrong!
+
+Time: 04/06/20 02:28
+Description: Exception in server tick loop
+
+cpw.mods.fml.common.DuplicateModsFoundException
+	at cpw.mods.fml.common.Loader.identifyDuplicates(Loader.java:384)
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:342)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:472)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:94)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:365)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:93)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:637)
+	at net.minecraft.server.ThreadMinecraftServer.run(SourceFile:583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.6.4
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.7.0_79, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 179015064 bytes (170 MB) / 258736128 bytes (246 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 2 total; -Xincgc -Xmx1G
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Suspicious classes: FML and Forge are installed
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: 
+   Failed to handle CraftCrashReport:
+java.lang.NullPointerException
+	at org.bukkit.Bukkit.getName(Bukkit.java:72)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftCrashReport.call(CraftCrashReport.java:19)
+	at net.minecraft.crash.CrashReportCategory.func_71500_a(CrashReportCategory.java:106)
+	at net.minecraft.crash.CrashReport.func_71504_g(CrashReport.java:58)
+	at net.minecraft.crash.CrashReport.<init>(CrashReport.java:40)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:693)
+	at net.minecraft.server.ThreadMinecraftServer.run(SourceFile:583)
+
+	FML: MCP v8.11 FML v6.4.49.965 Minecraft Forge 9.11.1.965 75 mods loaded, 0 mods active
+	mcp{8.09} [Minecraft Coder Pack] (minecraft.jar) 
+	FML{6.4.49.965} [Forge Mod Loader] (cauldron-server.jar) 
+	Forge{9.11.1.965} [Minecraft Forge] (cauldron-server.jar) 
+	CodeChickenCore{0.9.0.9} [CodeChicken Core] (minecraft.jar) 
+	LumySkinPatch{1.0.2} [Lumy Skin Patch] (minecraft.jar) 
+	NotEnoughItems{1.6.1.9} [Not Enough Items] (NotEnoughItems-1.6.4-1.6.1.9-universal.jar) 
+	ShoulderSurfing{1.6.4} [ShoulderSurfing] (minecraft.jar) 
+	vendingmachine{0.3.2} [Vending Machine Mod] ([1.6.4]VendingMachine_v0.3.2.jar) 
+	satscapealarmcraft{1.0.0} [Alarmcraft] (Alarmcraft.zip) 
+	ArchimedesShipsMod{1.6.4 v1.4.5} [Archimedes' Ships] (ArchimedesShips.zip) 
+	Artifice{1.6.4R1.1.3} [Artifice] (Artifice.jar) 
+	ArtificeCompat|EE3{1.6.4R1.1.3} [Artifice Compat: EE3] (Artifice.jar) 
+	ArtificeCompat|Forestry{1.6.4R1.1.3} [Artifice Compat: Forestry] (Artifice.jar) 
+	ArtificeCompat|Vanilla{1.6.4R1.1.3} [Artifice Compat: Vanilla] (Artifice.jar) 
+	ArtificeCompat|MFR{1.6.4R1.1.3} [Artifice Compat: MFR] (Artifice.jar) 
+	ArtificeCompat|Buildcraft{1.6.4R1.1.3} [Artifice Compat: Buildcraft] (Artifice.jar) 
+	ArtificeCompat|ForgeMicroblock{1.6.4R1.1.3} [Artifice Compat: ForgeMicroblock] (Artifice.jar) 
+	ArtificeCompat|Thaumcraft{1.6.4R1.1.3} [Artifice Compat: Thaumcraft] (Artifice.jar) 
+	BiblioCraft{1.5.5} [BiblioCraft] (BiblioCraft[v1.5.5].zip) 
+	bouncingblockmod{2.1 for 1.6.4 (FORGE 9.11.1.916)} [Bouncing Block Mod] (BouncingBlockMod.zip) 
+	CoFHCore{2.0.0.5} [CoFH Core] (CoFHCore-2.0.0.5.jar) 
+	CoFHLoot{2.0.0.5} [CoFH Loot] (CoFHCore-2.0.0.5.jar) 
+	CoFHMasquerade{2.0.0.5} [CoFH Masquerade] (CoFHCore-2.0.0.5.jar) 
+	CoFHSocial{2.0.0.5} [CoFH Social] (CoFHCore-2.0.0.5.jar) 
+	CoFHWorld{2.0.0.5} [CoFH World] (CoFHCore-2.0.0.5.jar) 
+	CoroAI{v1.0} [CoroAI] (CoroUtil for MC v1.6.4.zip) 
+	customnpcs{1.6.4} [CustomNpcs] (CustomNPC.zip) 
+	props{1.10} [DecoCraft] (Decocraft_1.10.0_1.6.4.zip) 
+	Disco{1.2} [DiscoCraft] (DiscoCraft - Copie.zip) 
+	Disco{1.2} [DiscoCraft] (DiscoCraft.zip) 
+	EasyColoredGlass{1.6.4.103} [Easy Colored Glass] (EasyColoredGlass.zip) 
+	elevators{1.6.4.B} [Elevator Mod] (Elevators.zip) 
+	ExtraButtons{1.6.4.0} [ExtraButtons] (ExtraButtons.zip) 
+	FlansMod{4.1.1} [Flans Mod] (Flans-Mod-1.6.4.jar) 
+	guilib{1.0.6.1} [GUI Library] (ForgeGuiLib.zip) 
+	NBTEdit{1.6.4.0} [In-game NBTEdit] (ForgeNBTEdit.zip) 
+	gvc{0.4.0} [Gliby's Voice Chat Mod] (GlibysVC-164_040.jar) 
+	killerchief_halocraft{v0.6.2} [Halocraft v0.6.2] (Halocraft_v0.6.2_(MC_1.6.4).zip) 
+	Hunting Traps{0.3.5} [Hunting Traps] (HTuniversal.zip) 
+	iChunUtil{2.3.0} [iChunUtil] (IChunUtil.zip) 
+	jammyfurniture{4.5} [Jammy Furniture Mod] (JammyFurnitureMod.zip) 
+	SGCraft{0.1.0build82} [Delta-SGCraft-Reloaded] (LanteaCraft-0.1.0-forge9.11.1.933-snapshot-88.jar) 
+	Lantern{1.63} [Lanterns and Flashlights Mod] (Lanterns and Flashlights(1.63).zip) 
+	LightBridgesAndDoors{0.1.7} [kris91268's Light Bridges and Doors] (LightBridgesANDDoors.zip) 
+	LycanitesMobs{1.5.1h - MC 1.6.4} [Lycanites Mobs] (LycanitesMobs.jar) 
+	ArcticMobs{1.5.1h - MC 1.6.4} [Lycanites Arctic Mobs] (LycanitesMobs.jar) 
+	DemonMobs{1.5.1h - MC 1.6.4} [Lycanites Demon Mobs] (LycanitesMobs.jar) 
+	DesertMobs{1.5.1h - MC 1.6.4} [Lycanites Desert Mobs] (LycanitesMobs.jar) 
+	ForestMobs{1.5.1h - MC 1.6.4} [Lycanites Forest Mobs] (LycanitesMobs.jar) 
+	InfernoMobs{1.5.1h - MC 1.6.4} [Lycanites Inferno Mobs] (LycanitesMobs.jar) 
+	JungleMobs{1.5.1h - MC 1.6.4} [Lycanites Jungle Mobs] (LycanitesMobs.jar) 
+	MountainMobs{1.5.1h - MC 1.6.4} [Lycanites Mountain Mobs] (LycanitesMobs.jar) 
+	PlainsMobs{1.5.1h - MC 1.6.4} [Lycanites Plains Mobs] (LycanitesMobs.jar) 
+	SaltwaterMobs{1.5.1h - MC 1.6.4} [Lycanites Saltwater Mobs] (LycanitesMobs.jar) 
+	SwampMobs{1.5.1h - MC 1.6.4} [Lycanites Swamp Mobs] (LycanitesMobs.jar) 
+	mtmechs{0.27} [Magitek Mechs] (MagitekMechs.zip) 
+	MFFS{3.4.0} [Modular Force Field System] (MFFS.jar) 
+	MSC{1.6.4.0} [Mob Spawn Controls] (MSC1v1.6.4.0.zip) 
+	PortalGun{2.0.1} [PortalGun] (PortalGun.zip) 
+	RodolRivalRebels{1.6.4} [Rival Rebels] (RivalRebels.zip) 
+	SecurityCraft{v1.4.1} [SecurityCraft] (SecurityCraft.zip) 
+	SlimevoidLib{2.1.0.0} [Slimevoid Library] (SlimevoidLib.zip) 
+	TLSpecialArmor{1.6.4} [SpecialArmor] (SpecialArmor.zip) 
+	Sync{1.0.0} [Sync] (Sync-ModJam3-1.0.0.zip) 
+	TallDoors{0.3.2} [TallDoors] (TallDoors.zip) 
+	ThermalExpansion{3.0.0.2} [Thermal Expansion] (ThermalExpansion-3.0.0.2.jar) 
+	Tubes{1.0.5} [Tubes] (Tubes-Mod-1.6.4.jar) 
+	UtilityMobs{2.1} [Utility Mobs] (UtilityMobs.zip) 
+	Vending{1.0.10} [Vending] (Vending.jar) 
+	AIBlock{v1.0} [AIBlock] (Weather v1.591 Mod for MC v1.6.4.zip) 
+	WeatherMod{1.591} [Weather and Tornadoes] (Weather v1.591 Mod for MC v1.6.4.zip) 
+	WirelessRedstoneCore{1.7.1.4} [Wireless Redstone] (WirelessRedstone.zip) 
+	ForgeMicroblock{1.0.0.219} [Forge Microblocks] (ForgeMultipart-universal-1.6.4-1.0.0.219.jar) 
+	ForgeMultipart{1.0.0.219} [Forge Multipart] (ForgeMultipart-universal-1.6.4-1.0.0.219.jar) 
+	McMultipart{1.0.0.219} [Minecraft Multipart Plugin] (ForgeMultipart-universal-1.6.4-1.0.0.219.jar) 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'mcpc,cauldron,craftbukkit,fml,forge'
+	Type: Dedicated Server (map_server.txt)

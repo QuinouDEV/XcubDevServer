@@ -1,0 +1,153 @@
+# This is the main configuration file for TileEntities.
+# 
+# If you need help with the configuration or have any questions related to Cauldron,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #cauldron @ irc.esper.net ( http://webchat.esper.net/?channel=cauldron )
+# Forums: http://cauldron.minecraftforge.net/
+# 
+# Setting: debug.enable-te-can-update-warning Default: false   # Set true to detect which tileentities should not be ticking.
+# Setting: settings.skip-tileentity-ticks Default: true   # If enabled, turns on tileentity tick skip feature when no players are near.
+# Setting: debug.enable-te-place-warning Default: false   # Warn when a mod requests tile entity from a block that doesn't support one
+# Setting: debug.enable-te-inventory-warning Default: false   # Set true to detect which tileentities with inventory failed to detect size for Bukkit's InventoryType enum. Note: This may detect a false-positive.
+# Setting: settings.prevent-invalid-tileentity-updates Default: true   # Used to determine if a tileentity should tick and if not the TE is added to a ban list. Note: This should help improve performance.
+
+debug:
+  enable-te-can-update-warning: false
+  enable-te-place-warning: false
+  enable-te-inventory-warning: false
+settings:
+  skip-tileentity-ticks: true
+  prevent-invalid-tileentity-updates: true
+config-version: 1
+world-settings:
+  default:
+    net-minecraft-tileentity-TileEntityChest:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityMobSpawner:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-jammy780-furniture-tiles-jfmTileEntityIronBlocksOne:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-jammy780-furniture-tiles-jfmTileEntityIronBlocksTwo:
+      tick-no-players: false
+      tick-interval: 1
+    mffs-tileentity-TileEntityInterdictionMatrix:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityEnchantmentTable:
+      tick-no-players: false
+      tick-interval: 1
+    mffs-tileentity-TileEntityForceFieldProjector:
+      tick-no-players: false
+      tick-interval: 1
+    RivalRebels-jm:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityEnderChest:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    wirelessredstone-tileentity-TileEntityRedstoneWirelessT:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityDaylightDetector:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityBeacon:
+      tick-no-players: false
+      tick-interval: 1
+    mffs-tileentity-TileEntityForceManipulator:
+      tick-no-players: false
+      tick-interval: 1
+    noppes-npcs-blocks-TileRedstoneBlock:
+      tick-no-players: false
+      tick-interval: 1
+    mffs-tileentity-TileEntityBiometricIdentifier:
+      tick-no-players: false
+      tick-interval: 1
+    wirelessredstone-tileentity-TileEntityRedstoneWirelessR:
+      tick-no-players: false
+      tick-interval: 1
+    noppes-npcs-blocks-TileBlockAnvil:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityBrewingStand:
+      tick-no-players: false
+      tick-interval: 1
+    RivalRebels-jn:
+      tick-no-players: false
+      tick-interval: 1
+    mffs-tileentity-TileEntityCoercionDeriver:
+      tick-no-players: false
+      tick-interval: 1
+    RivalRebels-jt:
+      tick-no-players: false
+      tick-interval: 1
+    mffs-tileentity-TileEntityFortronCapacitor:
+      tick-no-players: false
+      tick-interval: 1
+    RivalRebels-jv:
+      tick-no-players: false
+      tick-interval: 1
+    portalgun-common-tileentity-TileEntityPortalMod:
+      tick-no-players: false
+      tick-interval: 1
+    maaatin-disco-TileEntityDanceFloor:
+      tick-no-players: false
+      tick-interval: 1
+    portalgun-common-tileentity-TileEntityEEI:
+      tick-no-players: false
+      tick-interval: 1
+    kris91268-lbd-Tileentity-TileEntityLightDoorSource:
+      tick-no-players: false
+      tick-interval: 1
+    kris91268-lbd-Tileentity-TileEntityLightDoorSourceActivated:
+      tick-no-players: false
+      tick-interval: 1
+    kris91268-lbd-Tileentity-TileEntityLightDoorSection:
+      tick-no-players: false
+      tick-interval: 1
+    kris91268-lbd-Tileentity-TileEntityGravityLift:
+      tick-no-players: false
+      tick-interval: 1
+    kris91268-lbd-Tileentity-TileEntityLightBarrierSource:
+      tick-no-players: false
+      tick-interval: 1
+    kris91268-lbd-Tileentity-TileEntityLightBarrierSourceActivated:
+      tick-no-players: false
+      tick-interval: 1
+    kris91268-lbd-Tileentity-TileEntityLightBarrierSection:
+      tick-no-players: false
+      tick-interval: 1
+    SecurityCraft-forge-tileentity-TileEntityKeypad:
+      tick-no-players: false
+      tick-interval: 1
+    maaatin-disco-TileEntityDiscoBall:
+      tick-no-players: false
+      tick-interval: 1
+    RivalRebels-js:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-jammy780-furniture-tiles-jfmTileEntityBath:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityPiston:
+      tick-no-players: false
+      tick-interval: 1
+    portalgun-common-tileentity-TileEntityAFP:
+      tick-no-players: false
+      tick-interval: 1
+    RivalRebels-jl:
+      tick-no-players: false
+      tick-interval: 1
+    thermalexpansion-block-energycell-TileEnergyCell:
+      tick-no-players: false
+      tick-interval: 1
+    thermalexpansion-block-strongbox-TileStrongbox:
+      tick-no-players: false
+      tick-interval: 1

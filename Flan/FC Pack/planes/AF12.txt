@@ -1,0 +1,84 @@
+//Naming
+Name AF12
+ShortName AF12
+ItemID 27323
+//Visuals
+Icon IconAF12
+Model fc.AF12
+Texture AF12
+//Third Person Camera Distance
+CameraDistance 10.0
+//Throttle
+MaxThrottle 5.0
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 2
+TurnRightSpeed 2
+//Pitch modifiers
+LookUpSpeed 2
+LookDownSpeed 2
+//Roll modifiers
+RollLeftSpeed 2
+RollRightSpeed 2
+//Drag (A (maxThrottle * numPropellers) : drag ratio of 1 : 1 with mass should keep the plane going at some reasonable speed at full throttle
+Drag 0.98
+//Lift (A lift : mass ratio of 1 : 1 should keep the plane perfectly level at full throttle
+Lift 3.2
+//Mass (In tons)
+Mass 2.7
+//Moment of Inertia (in crazy units. Just fiddle with this until you find something nice)
+MomentOfInertia 10.0
+//More bounciness means the vehicle will bounce more upon going up slopes, but fall through the ground less
+Bounciness 1.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 5.0
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+//Nose and Wing Guns
+//ShootDelay 7
+//ShootAlternately False
+//Bombs (Bomb delay is in 1/20ths of seconds)
+BombDelay 100
+BombPosition -30 -12 0
+//Inventory Slots
+CargoSlots 0
+BombSlots 3
+//Propeller Positions
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 54 0 0 tail Thruster
+//Passengers
+Pilot 5 16 0
+Passengers 0
+//Sounds
+StartSound viper
+StartSoundLength 20
+PropSound viper
+PropSoundLength 30
+ShootSound PlaneShoot
+BombSound bomb
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 metalCockpit
+AddRecipeParts coreWheel 2 wheel
+AddRecipeParts nose 1 metalNose
+AddRecipeParts rightWing 1 metalWingSmall
+AddRecipeParts leftWing 1 metalWingSmall
+AddRecipeParts tail 1 metalTail
+AddRecipeParts rightWingWheel 1 wheel
+AddRecipeParts leftWingWheel 1 wheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 5 silver
+AddDye 1 gray
+//Health and collision
+SetupPart core 100 -68 9 -20 105 26 40
+SetupPart nose 100 37 9 -9 50 23 18
+SetupPart rightWing 100 -54 17 20 43 5 80
+SetupPart leftWing 100 -54 17 -100 43 5 80
+SetupPart tail 100 -106 9 -20 40 26 40
+SetupPart coreWheel 100 47 -10 -5 15 19 10
+SetupPart leftWingWheel 100 -49 -10 -20 17 19 10
+SetupPart rightWingWheel 100 -49 -10 10 17 19 10
+BulletDetection 10
+HasGear True

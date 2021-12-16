@@ -1,0 +1,64 @@
+
+1629984824152:INFO:SERVER:RedstoneEther:remTransmitter(world, -216, 104, 3, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984824153:INFO:SERVER:RedstoneEther:addTransmitter(world, -216, 104, 3, 1):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984824156:INFO:SERVER:RedstoneEther:setTransmitterState(world, -216, 104, 3, 1, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984824156:INFO:SERVER:RedstoneEther:remTransmitter(world, -223, 118, 4, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984824156:INFO:SERVER:RedstoneEther:addTransmitter(world, -223, 118, 4, 1):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984824157:INFO:SERVER:RedstoneEther:setTransmitterState(world, -223, 118, 4, 1, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984824157:INFO:SERVER:RedstoneEther:remTransmitter(world, -223, 118, -4, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984824157:INFO:SERVER:RedstoneEther:addTransmitter(world, -223, 118, -4, 1):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984824158:INFO:SERVER:RedstoneEther:setTransmitterState(world, -223, 118, -4, 1, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984824158:INFO:SERVER:RedstoneEther:remTransmitter(world, -216, 104, -3, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984824158:INFO:SERVER:RedstoneEther:addTransmitter(world, -216, 104, -3, 1):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984824158:INFO:SERVER:RedstoneEther:setTransmitterState(world, -216, 104, -3, 1, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984827150:INFO:SERVER:RedstoneEther:remTransmitter(world, 1, 89, 200, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984827150:INFO:SERVER:RedstoneEther:addTransmitter(world, 1, 89, 200, 0):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984827150:INFO:SERVER:RedstoneEther:setTransmitterState(world, 1, 89, 200, 0, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984827150:INFO:SERVER:RedstoneEther:remTransmitter(world, 0, 89, 201, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984827150:INFO:SERVER:RedstoneEther:addTransmitter(world, 0, 89, 201, 0):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984827150:INFO:SERVER:RedstoneEther:setTransmitterState(world, 0, 89, 201, 0, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984827150:INFO:SERVER:RedstoneEther:remTransmitter(world, 0, 89, 199, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984827150:INFO:SERVER:RedstoneEther:addTransmitter(world, 0, 89, 199, 0):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984827150:INFO:SERVER:RedstoneEther:setTransmitterState(world, 0, 89, 199, 0, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984827150:INFO:SERVER:RedstoneEther:remTransmitter(world, -1, 89, 200, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984827150:INFO:SERVER:RedstoneEther:addTransmitter(world, -1, 89, 200, 0):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984827150:INFO:SERVER:RedstoneEther:setTransmitterState(world, -1, 89, 200, 0, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984852730:INFO:SERVER:RedstoneEther:remTransmitter(world, -216, 104, 3, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984852730:INFO:SERVER:RedstoneEther:addTransmitter(world, -216, 104, 3, 1):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984852730:INFO:SERVER:RedstoneEther:setTransmitterState(world, -216, 104, 3, 1, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984852730:INFO:SERVER:RedstoneEther:remTransmitter(world, -223, 118, 4, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984852730:INFO:SERVER:RedstoneEther:addTransmitter(world, -223, 118, 4, 1):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984852730:INFO:SERVER:RedstoneEther:setTransmitterState(world, -223, 118, 4, 1, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984852730:INFO:SERVER:RedstoneEther:remTransmitter(world, -223, 118, -4, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984852730:INFO:SERVER:RedstoneEther:addTransmitter(world, -223, 118, -4, 1):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984852731:INFO:SERVER:RedstoneEther:setTransmitterState(world, -223, 118, -4, 1, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984852731:INFO:SERVER:RedstoneEther:remTransmitter(world, -216, 104, -3, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984852731:INFO:SERVER:RedstoneEther:addTransmitter(world, -216, 104, -3, 1):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984852731:INFO:SERVER:RedstoneEther:setTransmitterState(world, -216, 104, -3, 1, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984853178:INFO:SERVER:RedstoneEther:remTransmitter(world, -228, 112, 8, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984853178:INFO:SERVER:RedstoneEther:addTransmitter(world, -228, 112, 8, 2):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984853178:INFO:SERVER:RedstoneEther:setTransmitterState(world, -228, 112, 8, 2, true):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984853178:INFO:SERVER:RedstoneEther:remReceiver(world, -228, 117, 0, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessR.changeFreq->RedstoneEther.remReceiver
+1629984853178:INFO:SERVER:RedstoneEther:addReceiver(world, -228, 117, 0, 2):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessR.changeFreq->RedstoneEther.addReceiver
+1629984853179:INFO:SERVER:RedstoneEther:remReceiver(world, -232, 112, 5, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessR.changeFreq->RedstoneEther.remReceiver
+1629984853179:INFO:SERVER:RedstoneEther:addReceiver(world, -232, 112, 5, 1):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessR.changeFreq->RedstoneEther.addReceiver
+1629984853179:INFO:SERVER:RedstoneEther:remReceiver(world, -230, 117, 4, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessR.changeFreq->RedstoneEther.remReceiver
+1629984853179:INFO:SERVER:RedstoneEther:addReceiver(world, -230, 117, 4, 2):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessR.changeFreq->RedstoneEther.addReceiver
+1629984853179:INFO:SERVER:RedstoneEther:remReceiver(world, -228, 117, 1, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessR.changeFreq->RedstoneEther.remReceiver
+1629984853179:INFO:SERVER:RedstoneEther:addReceiver(world, -228, 117, 1, 2):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessR.changeFreq->RedstoneEther.addReceiver
+1629984853179:INFO:SERVER:RedstoneEther:remReceiver(world, -228, 117, -1, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessR.changeFreq->RedstoneEther.remReceiver
+1629984853179:INFO:SERVER:RedstoneEther:addReceiver(world, -228, 117, -1, 2):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessR.changeFreq->RedstoneEther.addReceiver
+1629984853180:INFO:SERVER:RedstoneEther:remReceiver(world, -230, 117, -4, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessR.changeFreq->RedstoneEther.remReceiver
+1629984853180:INFO:SERVER:RedstoneEther:addReceiver(world, -230, 117, -4, 2):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessR.changeFreq->RedstoneEther.addReceiver
+1629984863094:INFO:SERVER:RedstoneEther:remTransmitter(world, 1, 89, 200, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984863094:INFO:SERVER:RedstoneEther:addTransmitter(world, 1, 89, 200, 0):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984863094:INFO:SERVER:RedstoneEther:setTransmitterState(world, 1, 89, 200, 0, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984863094:INFO:SERVER:RedstoneEther:remTransmitter(world, 0, 89, 201, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984863094:INFO:SERVER:RedstoneEther:addTransmitter(world, 0, 89, 201, 0):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984863094:INFO:SERVER:RedstoneEther:setTransmitterState(world, 0, 89, 201, 0, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984863094:INFO:SERVER:RedstoneEther:remTransmitter(world, 0, 89, 199, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984863094:INFO:SERVER:RedstoneEther:addTransmitter(world, 0, 89, 199, 0):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984863094:INFO:SERVER:RedstoneEther:setTransmitterState(world, 0, 89, 199, 0, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState
+1629984863094:INFO:SERVER:RedstoneEther:remTransmitter(world, -1, 89, 200, ):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.remTransmitter
+1629984863094:INFO:SERVER:RedstoneEther:addTransmitter(world, -1, 89, 200, 0):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.addTransmitter
+1629984863094:INFO:SERVER:RedstoneEther:setTransmitterState(world, -1, 89, 200, 0, false):TileEntityRedstoneWireless.func_70316_g->BlockRedstoneWirelessT.changeFreq->RedstoneEther.setTransmitterState

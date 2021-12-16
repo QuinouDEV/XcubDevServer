@@ -1,0 +1,164 @@
+# This is the main configuration file for Bukkit.
+# As you can see, there's actually not that much to configure without any plugins.
+# For a reference for any variable inside this file, check out the bukkit wiki at
+# http://wiki.bukkit.org/Bukkit.yml
+settings:
+  allow-end: true
+  warn-on-overload: true
+  permissions-file: permissions.yml
+  update-folder: update
+  ping-packet-limit: 100
+  use-exact-login-location: false
+  plugin-profiling: false
+  connection-throttle: 4000
+  query-plugins: true
+  deprecated-verbose: default
+  shutdown-message: Serveur Fermer !!
+spawn-limits:
+  monsters: 70
+  animals: 15
+  water-animals: 5
+  ambient: 15
+chunk-gc:
+  period-in-ticks: 600
+  load-threshold: 0
+ticks-per:
+  animal-spawns: 400
+  monster-spawns: 1
+  autosave: 6000
+auto-updater:
+  enabled: false
+  on-broken:
+  - warn-console
+  - warn-ops
+  on-update:
+  - warn-console
+  - warn-ops
+  preferred-channel: rb
+  host: dl.bukkit.org
+  suggest-channels: true
+database:
+  username: bukkit
+  isolation: SERIALIZABLE
+  driver: org.sqlite.JDBC
+  password: walrus
+  url: jdbc:sqlite:{DIR}{NAME}.db
+cauldron:
+  loglevels:
+    Minecraft-Server: INFO
+    MinecraftForge: INFO
+    ForgeModLoader: INFO
+    mcp: INFO
+    FML: INFO
+    Forge: INFO
+    ForgeMicroblock: INFO
+    ForgeMultipart: INFO
+    McMultipart: INFO
+    vendingmachine: INFO
+    satscapealarmcraft: INFO
+    ArchimedesShipsMod: INFO
+    Artifice: INFO
+    ArtificeCompat|EE3: INFO
+    ArtificeCompat|Forestry: INFO
+    ArtificeCompat|Vanilla: INFO
+    ArtificeCompat|MFR: INFO
+    ArtificeCompat|Buildcraft: INFO
+    ArtificeCompat|ForgeMicroblock: INFO
+    ArtificeCompat|Thaumcraft: INFO
+    bouncingblockmod: INFO
+    CoFHCore: INFO
+    CoFHLoot: INFO
+    CoFHMasquerade: INFO
+    CoFHSocial: INFO
+    CoFHWorld: INFO
+    customnpcs: INFO
+    Disco: INFO
+    EasyColoredGlass: INFO
+    elevators: INFO
+    ExtraButtons: INFO
+    FlansMod: INFO
+    guilib: INFO
+    NBTEdit: INFO
+    Hunting Traps: INFO
+    iChunUtil: INFO
+    jammyfurniture: INFO
+    Lantern: INFO
+    LightBridgesAndDoors: INFO
+    LycanitesMobs: INFO
+    ArcticMobs: INFO
+    DemonMobs: INFO
+    DesertMobs: INFO
+    ForestMobs: INFO
+    InfernoMobs: INFO
+    JungleMobs: INFO
+    MountainMobs: INFO
+    PlainsMobs: INFO
+    SaltwaterMobs: INFO
+    SwampMobs: INFO
+    mtmechs: INFO
+    MFFS: INFO
+    MSC: INFO
+    PortalGun: INFO
+    RodolRivalRebels: INFO
+    SecurityCraft: INFO
+    SlimevoidLib: INFO
+    TLSpecialArmor: INFO
+    TallDoors: INFO
+    ThermalExpansion: INFO
+    tukmc_Vz: INFO
+    Vending: INFO
+    WirelessRedstoneCore: INFO
+    fml-ModTracker: INFO
+    fml-ItemTracker: INFO
+    MobSpawnControls: INFO
+    com-sk89q-worldedit-bukkit-WorldEditPlugin: INFO
+    com-sk89q-worldguard-bukkit-WorldGuardPlugin: INFO
+    com-sk89q-wepif-PermissionsResolverManager: INFO
+    Minecraft-WorldEdit: INFO
+    xcub-signconnector-antox-SignConnectorMain: INFO
+    xcub-dataplugin-antox-DataPluginMain: INFO
+    colt-noweather-NoWeather: INFO
+    org-anjocaido-groupmanager-GroupManager: INFO
+    com-earth2me-essentials-Essentials: INFO
+    com-earth2me-essentials-chat-EssentialsChat: INFO
+    com-earth2me-essentials-spawn-EssentialsSpawn: INFO
+    Minecraft: INFO
+    net-craftersland-data-bridge-PD: INFO
+    nl-sem-alert-Alert: INFO
+    gvc: INFO
+    Gliby's Voice Chat Mod: INFO
+    com-TeamNovus-AutoMessage-AutoMessage: INFO
+    eu-flaset-easyall-EasyAll: INFO
+    CodeChickenCore: INFO
+    LumySkinPatch: INFO
+    NotEnoughItems: INFO
+    ShoulderSurfing: INFO
+    BiblioCraft: INFO
+    CoroAI: INFO
+    props: INFO
+    killerchief_halocraft: INFO
+    SGCraft: INFO
+    Sync: INFO
+    Tubes: INFO
+    UtilityMobs: INFO
+    AIBlock: INFO
+    WeatherMod: INFO
+    ConfigMod: INFO
+    ch-njol-skript-Skript: INFO
+    net-grota-piratesk-PirateSK: INFO
+    me-TheBukor-SkStuff-SkStuff: INFO
+    com-sk89q-worldguard-bukkit-WorldConfiguration: INFO
+    com-sk89q-worldguard-bukkit-RegionContainer: INFO
+    com-sk89q-worldguard-protection-managers-migration-UUIDMigration: INFO
+    com-sk89q-worldguard-protection-managers-RegionContainerImpl: INFO
+    net-coreprotect-CoreProtect: INFO
+    net-milkbowl-vault-Vault: INFO
+    com-digitizer-Region-BuyRegion: INFO
+    fr-quinou-xcubcore-Main: INFO
+world-settings:
+  the_end:
+    enabled: true
+  nether:
+    enabled: true
+  hchalo:
+    enabled: true
